@@ -7,3 +7,5 @@ by the [[https://github.com/wrf-model/WRF][Weather Research and Forecasting mode
 Tools]] (GMT). Some pre-processing is performed using a set of small python
 scripts, in order to dump the tracks to an ascii format that GMT groks. The code
 is currently configured to plot tracks from [[https://en.wikipedia.org/wiki/Hurricane_Iniki][Hurricane Iniki]].
+
+Note that _no_ WRF data is actually distributed with this repo.
