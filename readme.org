@@ -1,0 +1,9 @@
+#+title: wrf-track-overview
+#+author: Taylor Viti
+#+email: tviti@hawaii.edu
+
+Generate a map of tropical cyclone tracks, from a set of output files generated
+by the [[https://github.com/wrf-model/WRF][Weather Research and Forecasting model]] (WRF), using the [[https://www.generic-mapping-tools.org/][Generic Mapping
+Tools]] (GMT). Some pre-processing is performed using a set of small python
+scripts, in order to dump the tracks to an ascii format that GMT groks. The code
+is currently configured to plot tracks from [[https://en.wikipedia.org/wiki/Hurricane_Iniki][Hurricane Iniki]].
