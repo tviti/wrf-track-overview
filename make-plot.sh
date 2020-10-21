@@ -19,6 +19,8 @@ echo "
 -152.2550 17.5330 51004
 " > ndbc-locs.txt
 
+mkdir -p figures
+
 gmt begin figures/overview pdf # PNG
     gmt set FONT_ANNOT_PRIMARY 6p
     gmt coast -R-180/-130/0/40 -JM3i -Df -Glightbrown -Slightblue -B
